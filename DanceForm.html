@@ -1,0 +1,62 @@
+<html>
+
+<head>
+	<link type="text/css" rel="stylesheet" href="FormStyleSheet.css" />
+	<title>HNA Dance Registration</title>
+</head>
+
+<body>
+	<form action="PostDanceForm.php" method="post">
+		<h3>Enter your information. All fields are required.</h3>
+			First name: <input type="text" name="FirstName"><br>
+			Last name: <input type="text" name="LastName"><br>
+			Grade:
+				<input type="radio" name="Grade" value="9" checked> 9
+				<input type="radio" name="Grade" value="10"> 10
+				<input type="radio" name="Grade" value="11"> 11
+				<input type="radio" name="Grade" value="12"> 12<br>
+		    Parent first name: <input type="text" name="ParentFirstName"><br>
+		    Parent last name: <input type="text" name="ParentLastName"><br>
+		    Parent phone (10 characters only): <input type="text" name="ParentPhone"><br><br>
+		    
+		    <!--I would like to make an "if" drop-down, if they have a date.-->
+		    <b>Will you bring a date?</b>
+		    	<input type="radio" name="HasDate" value="1" checked> Yes
+		    	<input type="radio" name="HasDate" value="0"> No<br>
+		    <em>If you answered "Yes", continue the form below.<br>
+		    If you answered "No", skip to the bottom and submit. Please do not fill out the form below.</em>
+		
+		<h3>If you have a date, enter your date's information.</h3>
+			Date's first name: <input type="text" name="DateFirstName"><br>
+			Date's last name: <input type="text" name="DateLastName"><br>
+			Date's school: <input type="text" name="DateSchool"><br>
+		    Date's parent's first name: <input type="text" name="DateParentFirstName"><br>
+		    Date's parent's last name: <input type="text" name="DateParentLastName"><br>
+		    Date's parent's phone (10 characters only): <input type="text" name="DateParentPhone"><br><br>
+	    <div id="terms-pane">
+    		<h2>Terms and Conditions</h2>
+                <br>
+                <p>I understand that any guest of an HNA student must observe all school rules and </p>
+                <p>regulations as outlined in the HNA Parent/Student Handbook.  The guest must bring </p>
+                <p>photo ID. HNA administration has the right to deny any guest access to the dance.  Any</p>
+                <p>guest currently suspended or expelled from any public or private high school may not </p>
+                <p>attend.</p>
+                <br>
+                <p>I understand that students and guests are required to wear clothing which is appropriate </p>
+                <p>for the school environment.  Dresses must be of a modest cut, not reveal undergarments,</p>
+                <p>and have a maximum length of 4 inches above the knee.  All tops must cover the back, </p>
+                <p>both shoulders, and be long enough to reach the top of the beltline or waist.  Students not </p>
+                <p>adhering to the HNA dress code may not be admitted or may be asked to leave.</p>
+                <br>
+                <p>I understand that students and guests are invited to participate in the merriment of </p>
+                <p>dancing in a way which is appropriate for the school environment.  Students must dance </p>
+                <p>face to face, have space in between them, and remain upright.  Any students or guests </p>
+                <p>dancing or behaving inappropriately will be asked to leave the dance and may not be </p>
+                <p>permitted to attend future dances.  If a student is asked to leave the dance, parents will be</p>
+                <p>notified.</p>
+		</div>
+		<input type="submit" name="submit" id="submit" value="Agree and Submit" />
+	</form>
+</body>
+
+</html>

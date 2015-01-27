@@ -1,0 +1,58 @@
+<style type="text/css">
+
+html{
+}
+
+body {
+	background:url(TheDome.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+a:link {
+	color:#000000;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#000000;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#000000;
+	letter-spacing:3px;
+	text-decoration:none;
+}
+
+#center {
+	height:100%;
+	position:relative;
+	top:30%;
+	text-align:center;
+}
+
+#header {
+	font-size:80px;
+	font-family:'Lato', sans-serif;
+	font-weight:300;
+}
+
+#content {
+	font-size:30px;
+	font-family:'Lato', sans-serif;
+	font-weight:300;
+}
+
+#admin {
+    position:fixed;
+    top: 0px;
+    left: 10px;
+    font-size:20px;
+	font-family:'Lato', sans-serif;
+	font-weight:300;
+}
+
+</style>
